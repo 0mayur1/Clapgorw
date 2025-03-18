@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, Image } from 'react-native'
 import React, { useEffect } from 'react'
 import SplashScreen from 'react-native-splash-screen'
-
+import Profile from './src/screens/profile'
 export default function App() {
 
   useEffect(()=>{
@@ -12,7 +12,8 @@ export default function App() {
 
   return (
     <View style={styles.mainContainer}>
-        <View style={styles.headerContainer}>
+<Profile/>
+        {/* <View style={styles.headerContainer}>
             <View>
                 <Image source={require('./src/assets/appLogo.png')}/>
                 <View style={{marginTop:70}}>
@@ -26,7 +27,7 @@ export default function App() {
                 style={{top:-8,left: -50}}
                  source={require('./src/assets/Pattern.png')}/>
             </View>
-        </View>
+        </View> */}
     </View>
   )
 }
