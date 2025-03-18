@@ -1,10 +1,9 @@
 export const COLORS = {
-    primary: "#007AFF", // Primary Blue
-    secondary: "#A0A0A0", // Secondary Grey
-    background: "#FFFFFF", // White background
-    border: "#E0E0E0", // Light Grey border
-    text: "#111", // Dark text
-    placeholder: "#999", // Placeholder text
-    icon: "#333", // Icon color
+primary:"#038EE2",
+   mid_blue:'#000B23',
+ slat_gray:"#6E7591",
+ white:'#FFFFFF',
+ gray:"#6A6F73",
+ flamingo_red:"#FF5257"
   };
   
